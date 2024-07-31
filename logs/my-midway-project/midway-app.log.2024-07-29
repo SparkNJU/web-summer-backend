@@ -1,0 +1,49 @@
+2024-07-29 10:11:17.953 INFO 19076 [-/::ffff:127.0.0.1/-/5ms GET /] Report in "src/middleware/report.middleware.ts", rt = 1ms
+2024-07-29 10:29:41.960 INFO 19632 [-/::ffff:127.0.0.1/-/9ms GET /] Report in "src/middleware/report.middleware.ts", rt = 2ms
+2024-07-29 10:42:29.856 INFO 34032 [-/::ffff:127.0.0.1/-/6ms GET /] Report in "src/middleware/report.middleware.ts", rt = 2ms
+2024-07-29 10:45:28.884 INFO 34032 [-/::ffff:127.0.0.1/-/1ms GET /] Report in "src/middleware/report.middleware.ts", rt = 0ms
+2024-07-29 10:45:40.312 WARN 34032 [-/::ffff:127.0.0.1/-/2ms GET /app/index.html] NotFoundError: /app/index.html Not Found
+    at notFound (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\koa\dist\framework.js:135:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at C:\Users\Spark\NJUweb\koa-test\src\middleware\report.middleware.ts:12:22
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\i18n\dist\middleware.js:150:17
+    at bodyParser (C:\Users\Spark\NJUweb\koa-test\node_modules\koa-bodyparser\index.js:78:5)
+    at session (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\core\dist\baseFramework.js:273:40
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\core\dist\baseFramework.js:267:24
+    at midwayRootMiddleware (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\koa\dist\framework.js:141:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2024-07-29 10:45:57.020 WARN 34032 [-/::ffff:127.0.0.1/-/1ms GET /ssrc/app/index.html] NotFoundError: /ssrc/app/index.html Not Found
+    at notFound (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\koa\dist\framework.js:135:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at C:\Users\Spark\NJUweb\koa-test\src\middleware\report.middleware.ts:12:22
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\i18n\dist\middleware.js:150:17
+    at bodyParser (C:\Users\Spark\NJUweb\koa-test\node_modules\koa-bodyparser\index.js:78:5)
+    at session (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\core\dist\baseFramework.js:273:40
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\core\dist\baseFramework.js:267:24
+    at midwayRootMiddleware (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\koa\dist\framework.js:141:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2024-07-29 10:46:01.461 WARN 34032 [-/::ffff:127.0.0.1/-/1ms GET /src/app/index.html] NotFoundError: /src/app/index.html Not Found
+    at notFound (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\koa\dist\framework.js:135:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at C:\Users\Spark\NJUweb\koa-test\src\middleware\report.middleware.ts:12:22
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\i18n\dist\middleware.js:150:17
+    at bodyParser (C:\Users\Spark\NJUweb\koa-test\node_modules\koa-bodyparser\index.js:78:5)
+    at session (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\core\dist\baseFramework.js:273:40
+    at C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\core\dist\baseFramework.js:267:24
+    at midwayRootMiddleware (C:\Users\Spark\NJUweb\koa-test\node_modules\@midwayjs\koa\dist\framework.js:141:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
